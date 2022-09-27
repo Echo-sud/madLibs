@@ -1,0 +1,21 @@
+int main()
+{
+    int num;
+    string country, animal, funnyName;
+    
+    cout << "Give me some data and I will predict the future! \n";
+    cout << "Enter a number: ";
+    cin >> num;
+    cout << "Enter the name of a country: ";
+    cin.ignore();
+    getline(cin, country);
+    cout << "Enter a type of animal: ";
+    getline(cin, animal);
+    cout << "Enter a funny name: ";
+    getline(cin, funnyName);
+    cout << "\n";
+    cout << "It's time to tell your future! \n In three years you will move to " << country <<". \n";
+    cout << "You will be gifted a " << animal << " that you decide to name " << funnyName << ".";
+  
+   
+}
